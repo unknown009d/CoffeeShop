@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta charset="UTF-8" />
+    <title>CoffeeShop</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="assets/boxicons-2.1.2/css/boxicons.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="upperMenu">
+        <button>
+          <i class="bx bxs-dashboard"></i>
+        </button>
+        <button><img src="assets/pictures/dp.jpeg" alt="Person" /></button>
+        <!-- <button><i class="bx bx-user"></i></button> -->
+      </div>
+      <h2 class="txtWel">
+        Find the best<br />
+        coffee for you
+      </h2>
+    </header>
+    <main>
+      <form class="searchField">
+        <button>
+          <i class="bx bxs-search-alt-2"></i>
+        </button>
+        <input
+          id="txtSearch"
+          type="search"
+          placeholder="Find your coffee here..."
+          required
+        />
+      </form>
+      <section class="fadeeff">
+        <div class="categoryTabs">
+          <table>
+            <thead>
+              <tr>
+                <td>
+                  <input id="cat1" type="radio" name="cat" checked />
+                  <label for="cat1">Cappuccino</label>
+                </td>
+                <td>
+                  <input id="cat2" type="radio" name="cat" />
+                  <label for="cat2">Espresso</label>
+                </td>
+                <td>
+                  <input id="cat3" type="radio" name="cat" />
+                  <label for="cat3">Latte</label>
+                </td>
+                <td>
+                  <input id="cat4" type="radio" name="cat" />
+                  <label for="cat4">Falt White</label>
+                </td>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </section>
+      <section class="products">
+        <div class="prod">
+          <div class="img-container">
+            <img src="assets/c4.jpg" alt="Coffee" />
+            <small class="rating">
+              <i class="bx bxs-star"></i>
+              4.5
+            </small>
+          </div>
+          <div class="text-container">
+            <h3>Cappuccino</h3>
+            <p>With Chocolate</p>
+          </div>
+          <div class="footer">
+            <h3><span>₹</span> 420.00</h3>
+            <button onclick="location.href = 'openpg.html'">
+              <i class="bx bx-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="prod">
+          <div class="img-container">
+            <img src="assets/c1.jpg" alt="Coffee" />
+            <small class="rating">
+              <i class="bx bxs-star"></i>
+              3.9
+            </small>
+          </div>
+          <div class="text-container">
+            <h3>Cappuccino</h3>
+            <p>With Oat Milk</p>
+          </div>
+          <div class="footer">
+            <h3><span>₹</span> 309.99</h3>
+            <button><i class="bx bx-chevron-right"></i></button>
+          </div>
+        </div>
+      </section>
+      <div class="cont">
+        <h5>Specially for you</h5>
+      </div>
+      <section class="showcase">
+        <div class="img-cont">
+          <img src="assets/ex.webp" alt="MustTryPicture" />
+        </div>
+        <div class="text-content">
+          <h4>Know about coffee!</h4>
+          <p>
+            Coffee is a brewed drink prepared from roasted coffee beans, the
+            seeds in the Coffea genus.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
